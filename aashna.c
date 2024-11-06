@@ -3,7 +3,7 @@
 int main() {
     char op;
     int num1, num2, result;
-
+    printf("HEllo i am committing a change");
     printf("welcome! Which operation do you want to do? (+, -, *, div): ");
     scanf(" %c", &op);
 
