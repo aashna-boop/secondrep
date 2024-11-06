@@ -4,15 +4,12 @@ int main() {
     char op;
     int num1, num2, result;
 
-    // Get the operation from the user
     printf("welcome! Which operation do you want to do? (+, -, *, div): ");
     scanf(" %c", &op);
 
-    // Get the two numbers from the user
     printf("Cool! Now enter two numbers: ");
     scanf("%f %f", &num1, &num2);
 
-    // Do the math based on what the user picked
     switch (op) {
         case '+':
             result = num1 + num2;
